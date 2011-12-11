@@ -1,0 +1,16 @@
+name: PersonasBanker
+description: Personas Banker provides a banker.
+author: AlbireoX
+version: 1.0
+
+main: com.crimsonrpg.personas.personasbanker.PersonasBanker
+
+commands:
+  spawnbanker:
+    description: Temporary command
+    default: op
+    usage: /spawnbanker
+    
+permissions:
+  personasbanker.spawn:
+    description: Allows a player to spawn a banker.
